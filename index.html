@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi data mahasiswa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Data Mahasiswa</h1>
+        <p>Kelola data mahasiswa dengan mudah.</p>
+
+        <!-- Data mahasiswa -->
+        <div class="formContainer">
+            <h2>Tambah Data Mahasiswa</h2>
+            <form id="formMahasiswa">
+                <input type="text" id="nama" placeholder="Nama">
+                <input type="text" id="nim" placeholder="NIM">
+
+                <select id="jurusan" required>
+                    <option value="">Pilih Jurusan</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Keamanan Sistem Informasi">Keamanan Sistem Informasi</option>
+                    <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                </select>
+
+                <select id="semester" required>
+                    <option value="">Pilih Semester</option>
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                    <option value="5">Semester 5</option>
+                    <option value="6">Semester 6</option>
+                    <option value="7">Semester 7</option>
+                    <option value="8">Semester 8</option>
+                </select>
+
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="noHp" placeholder="No. HP" required>
+                <button type="submit">Simpan Data</button>
+            </form>
+        </div>
+
+        <!-- Data Mahasiswa -->
+        <div class="dataContainer">
+            <div class="headerData">
+                <h2>Data Mahasiswa</h2>
+
+                <input type="text" id="search" placeholder="Cari Mahasiswa....">
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nim</th>
+                        <th>Nama</th>
+                        <th>Jurusan</th>
+                        <th>Semester</th>
+                        <th>Email</th>
+                        <th>No. HP</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelMahasiswa"></tbody>
+            </table>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

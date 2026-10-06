@@ -1,0 +1,25 @@
+{
+  "name": "aplikasi-data-mahasiswa",
+  "version": "1.0.0",
+  "description": "Aplikasi berbasis web untuk mengelola data mahasiswa.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamsuwanda36-a11y/aplikasi-data-mahasiswa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ilhamsuwanda36-a11y/aplikasi-data-mahasiswa/issues"
+  },
+  "homepage": "https://github.com/ilhamsuwanda36-a11y/aplikasi-data-mahasiswa#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.5"
+  }
+}

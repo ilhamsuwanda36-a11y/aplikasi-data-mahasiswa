@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+h1 {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.formContainer,
+.dataContainer {
+    background-color: rgb(41, 255, 212);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+input,
+select {
+    padding: 12px;
+    border: 1px solid #1a1818;
+    border-radius: 6px;
+    font-size: 14px;
+}
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #1d4ed8;
+}
+.header-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search {
+    width: 250px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+}
+th {
+    background-color: #48a3ff;
+}
+.btn-edit {
+    background-color: #f59e0b;
+}
+.btn-delete {
+    background-color: #dc2626;
+}
