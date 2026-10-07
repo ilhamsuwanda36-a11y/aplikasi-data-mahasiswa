@@ -146,7 +146,6 @@ app.delete("/api/mahasiswa/:id", (req, res) => {
     const sql = "DELETE FROM mahasiswa WHERE id = ?";
     
     db.query(sql, [id], (err, hasil) => {
-        console.log("Hasil DELETE:", hasil);
 
         if (err) {
             console.error("Gagal menghapus data:", err);
