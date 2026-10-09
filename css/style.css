@@ -28,6 +28,8 @@ p {
     justify-content: center;
     text-align: center;
 }
+
+/* Tambah data mahasiswa */
 .formContainer,
 .dataContainer {
     background-color: rgb(41, 255, 212);
@@ -46,7 +48,7 @@ form {
 input,
 select {
     padding: 12px;
-    border: 1px solid #1a1818;
+    border: 1px solid #000;
     border-radius: 6px;
     font-size: 14px;
 }
@@ -62,6 +64,8 @@ button {
 button:hover {
     background-color: #1d4ed8;
 }
+
+/* Data mahasiswa */
 .header-data {
     display: flex;
     justify-content: space-between;
@@ -69,6 +73,7 @@ button:hover {
 }
 #search {
     width: 250px;
+    margin-bottom: 12px;
 }
 table {
     width: 100%;
